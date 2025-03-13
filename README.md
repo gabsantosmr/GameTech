@@ -78,6 +78,7 @@ gametech-ecommerce/
 ├── login.html              # Página de login e cadastro
 ├── README.md               # Documentação do projeto
 └── .gitignore              # Arquivo para ignorar arquivos desnecessários no Git
+```
 
 ---
 
