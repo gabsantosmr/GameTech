@@ -63,7 +63,8 @@ Siga os passos abaixo para rodar o projeto no seu computador:
 
 Aqui está a estrutura de pastas e arquivos do projeto:
 
-```gametech-ecommerce/
+```
+gametech-ecommerce/
 ├── css/
 │   └── style.css           # Estilos globais do site
 ├── img/                    # Pasta de imagens
@@ -76,7 +77,7 @@ Aqui está a estrutura de pastas e arquivos do projeto:
 ├── index.html              # Página inicial
 ├── login.html              # Página de login e cadastro
 ├── README.md               # Documentação do projeto
-└── .gitignore              # Arquivo para ignorar arquivos desnecessários no Git```
+└── .gitignore              # Arquivo para ignorar arquivos desnecessários no Git
 
 ---
 
