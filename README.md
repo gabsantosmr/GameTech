@@ -131,6 +131,12 @@ Contribuições são bem-vindas! Siga os passos abaixo:
 
 ---
 
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
 ## 👨‍💻 Autor
 
 - **GitHub**: [gabsantosmr](https://github.com/gabsantosmr)
