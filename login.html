@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags para configuração básica do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>GameTech - Login</title>
+
+    <!-- Links para folhas de estilo externas (Bootstrap e CSS personalizado) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navegação principal -->
+    <nav>
+        <a class="logo" href="index.html">
+            <img src="img/Gametech.svg" alt="">
+            <p>GameTech</p>
+        </a>
+        <!-- Botão de menu para dispositivos móveis -->
+        <button id="menu-toggle" aria-label="Abrir menu">
+            <img id="menu-icon" src="img/menu-icon.svg" alt="Menu">
+        </button>
+        <!-- Links de navegação -->
+        <div id="navigation">
+                <a href="index.html#destaques" class="button2">DESTAQUES</a>
+                <a href="index.html#novidades" class="button2">NOVIDADES</a>
+                <a href="index.html#fotos" class="button2">FOTOS</a>
+        </div>
+    </nav>
+    <!-- Navegação móvel (oculta por padrão) -->
+    <div id="navigation-mobile">
+        <a href="index.html#destaques" class="button2">DESTAQUES</a>
+        <a href="index.html#novidades" class="button2">NOVIDADES</a>
+        <a href="index.html#fotos" class="button2">FOTOS</a>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <main id="main-login">
+        <!-- Seção de login -->
+        <section id="section-login">
+            <h1>Login</h1>
+            <div class="d-flex justify-content-center">
+                <form method="post" action="" id="login">
+                    <p>
+                        <label for="usuario">Nome: </label>
+                        <input id="usuario" name="usuario" required="required" type="text"
+                            placeholder="Insira o seu usuário" class="form-control" />
+                    </p>
+                    <p>
+                        <label for="senha">Senha: </label>
+                        <input id="senha" name="senha" required="required" type="password"
+                            placeholder="Insira a sua senha" class="form-control" />
+                    </p>
+                    <p>
+                        <input type="button" value="login" class="btn btn-primary" id="bt-login" onclick="login()" />
+                    </p>
+                </form>
+            </div>
+        </section>
+
+        <!-- Seção de cadastro -->
+        <section id="section-cadastro">
+            <div id="botao-cadastrar">
+                <button type="button" class="btn btn-info">Não é cadastrado ainda? Cadastre-se</button>
+            </div>
+            <div id="form-cadastrar">
+
+                <h1>Criar minha conta</h1>
+                <p>Informe os seus dados abaixo para criar sua conta.</p>
+
+                <div class="d-flex justify-content-center">
+                    <form method="post" action="" id="login">
+                        <p>
+                            <label for="usuario">Usuário: </label>
+                            <input id="usuario" name="usuario" required="required" type="text"
+                                placeholder="ex. nome de usuário" class="form-control" />
+                        </p>
+                        <p>
+                            <label for="email">E-mail: </label>
+                            <input id="email" name="email" required="required" type="email"
+                                placeholder="seu@email.com.br" class="form-control" />
+                        </p>
+                        <p>
+                            <label for="senha">Senha: </label>
+                            <input id="senha" name="senha" required="required" type="password"
+                                placeholder="mínimo de 6 caracteres" class="form-control" />
+                        </p>
+                        <p>
+                            <input type="button" value="Cadastrar" class="btn btn-primary" id="bt-cadastrar"
+                                onclick="cadastro()" />
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <!-- Links e informações do rodapé... -->
+        <div id="links">
+            <div>
+                <div class="logo">
+                    <img src="img/Gametechwhite.svg" alt="">
+                    <p>GameTech</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/gametech" target="_blank">
+                        <img src="img/instagram.png" alt="Logo do Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/gametech" target="_blank">
+                        <img src="img/facebook.png" alt="Logo do Facebook">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <p class="bold">Peças de computador</p>
+                <ul>
+                    <li>Placa mãe</li>
+                    <li>Monitor</li>
+                    <li>Teclado</li>
+                    <li>Mouse</li>
+                    <li>Headset</li>
+                </ul>
+            </div>
+            <div>
+                <p class="bold">Notebook</p>
+                <ul>
+                    <li>Samsung</li>
+                    <li>Asus</li>
+                    <li>Dell</li>
+                    <li>Hp</li>
+                </ul>
+            </div>
+            <div>
+                <p class="bold">Celular</p>
+                <ul>
+                    <li>Samsung</li>
+                    <li>Apple</li>
+                    <li>Positivo</li>
+                    <li>LG</li>
+                </ul>
+            </div>
+            <div id="contact">
+                <p class="bold">Contatos</p>
+                <ul>
+                    <li>Whatsapp: (99)99999-9999</li>
+                    <li>Instagram: @gametech</li>
+                    <li>E-mail: gametech@gmail.com</li>
+                </ul>
+                <p class="bold">Local</p>
+                <p>Rua dos bobos N°0</p>
+                <p>São Paulo - SP</p>
+            </div>
+        </div>
+        <div id="copy">
+            <p>© 2025 Gabriel dos Santos Mota Rodrigues</p>
+        </div>
+    </footer>
+
+    <!-- Scripts externos e personalizados -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-script.js"></script>
+</body>
+</html>
