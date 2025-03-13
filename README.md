@@ -50,7 +50,8 @@ Siga os passos abaixo para rodar o projeto no seu computador:
 
 3. **Abra o projeto no seu editor de código:**
     Se estiver usando o Visual Studio Code, execute:
-       ```bash
+       
+    ```bash
     code .
 
 4. **Abra o arquivo index.html no navegador:**
@@ -62,17 +63,20 @@ Siga os passos abaixo para rodar o projeto no seu computador:
 
 Aqui está a estrutura de pastas e arquivos do projeto:
 
-gametech-ecommerce/
+```gametech-ecommerce/
 ├── css/
 │   └── style.css           # Estilos globais do site
 ├── img/                    # Pasta de imagens
+│   ├── banner.png          # Banner da página inicial
+│   ├── menu-icon.svg       # Ícone do menu mobile
+│   └── usuario.svg         # Ícone do usuário
 ├── js/
 │   ├── script.js           # Scripts de interatividade
 │   └── jquery-script.js    # Scripts com jQuery
 ├── index.html              # Página inicial
 ├── login.html              # Página de login e cadastro
 ├── README.md               # Documentação do projeto
-└── .gitignore              # Arquivo para ignorar arquivos desnecessários no Git
+└── .gitignore              # Arquivo para ignorar arquivos desnecessários no Git```
 
 ---
 
